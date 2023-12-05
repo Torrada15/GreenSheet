@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="folha.jpg">
+            <title>
+                GreenSheet Room
+            </title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <script
+src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script
+src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script
+src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        
+        </head>
+        <body>
+            <div class="container">
+                <button onclick="voltar()" style="font-size: 20px; margin-top: 1px;" class="btn btn-success">voltar</button>
+                <button id="logout" onclick="sair()" class="glyphicon glyphicon-log-out btn btn-success">logout</button>
+                <center>
+                    <h1 class="header">
+                        GreenSheet
+                        <sup>
+                            <img src="folha2.png" id="folha">
+                        </sup>
+                    </h1>
+                    <div id="output" style="text-align: left;margin-bottom: 70px;"></div>
+                </center>
+            </div>
+            <center>
+                <div class="input_div_message_page">
+                    <label>Enviar:</label>
+                    <input type="text" id="msg" class="form-control" placehiniolder="Message">
+                    <button onclick="send()" class="btn btn-success">Enviar</button>
+        
+                </div>
+            </center>
+            <script src="GreenSheet_page.js"></script>
+        </body>   
+</html>

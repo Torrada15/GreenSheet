@@ -1,0 +1,77 @@
+html, body
+{
+    height: 100%;
+    margin: 0;
+}
+body
+{
+    background-image:url(arvo.jpg);
+    background-size: cover;
+    color:black;
+}
+.header
+{
+color: darkolivegreen;
+font-family: Yeon-Sung;
+font-size: 45px;
+letter-spacing: 10px;
+margin-top: 80px;
+}
+.header-img
+{
+    width: 100px;
+    margin-left: -15px;
+}
+.login_div
+{
+    background: rgba(144, 238, 144, 0.584);
+    float: none;
+    border-radius: 15px;
+    padding: 15px;
+}
+.logo
+{
+    width: 100px;
+    margin-top: 30px;
+    border-radius:5px ;
+}
+#folha
+{
+    width: 120px;
+}
+#login_button
+{
+    width: 80%;
+    border-radius: 15px;
+    background: darkolivegreen !important;
+}
+.room_name
+{
+    cursor: pointer;
+    font-size: 20px;
+}
+#logout
+{
+    font-size: 20px;
+    float: right;
+}
+#output
+{
+    padding: 10px;
+  width: 80%;  
+  background: white;
+  border-radius: 15px;
+}
+.input_div_room_page
+{
+    width: 80%;
+}
+input_div label
+{
+    color: aliceblue;
+    font-size: 20px;
+}
+.user_tick
+{
+    width: 100px;
+}
